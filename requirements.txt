@@ -4,6 +4,7 @@ numpy
 scikit-learn
 matplotlib
 seaborn
+xlrd
 
 # Database and API access
 sqlalchemy
