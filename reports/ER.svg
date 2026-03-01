@@ -1,0 +1,231 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="983pt" height="854pt" viewBox="0.00 0.00 983.00 854.00">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 849.75)">
+<title>ER</title>
+<polygon fill="white" stroke="none" points="-4,4 -4,-849.75 978.89,-849.75 978.89,4 -4,4"/>
+<!-- Obs -->
+<g id="node1" class="node">
+<title>Obs</title>
+<polygon fill="#d4e6f1" stroke="#d4e6f1" points="540.4,-511.5 423.27,-511.5 423.27,-468.3 540.4,-468.3 540.4,-511.5"/>
+<text xml:space="preserve" text-anchor="middle" x="481.84" y="-494.1" font-family="Helvetica,sans-Serif" font-size="14.00">CENSUS</text>
+<text xml:space="preserve" text-anchor="middle" x="481.84" y="-477.3" font-family="Helvetica,sans-Serif" font-size="14.00">OBSERVATION</text>
+</g>
+<!-- Obs_ID -->
+<g id="node8" class="node">
+<title>Obs_ID</title>
+<ellipse fill="none" stroke="black" cx="642.09" cy="-440.24" rx="69.17" ry="21.6"/>
+<text xml:space="preserve" text-anchor="start" x="593.45" y="-437.04" font-family="Helvetica,sans-Serif" text-decoration="underline" font-size="14.00">Observation_ID</text>
+</g>
+<!-- Obs&#45;&#45;Obs_ID -->
+<g id="edge7" class="edge">
+<title>Obs--Obs_ID</title>
+<path fill="none" stroke="black" d="M540.6,-471.69C557.57,-466.43 575.92,-460.74 592.29,-455.67"/>
+</g>
+<!-- Year -->
+<g id="node9" class="node">
+<title>Year</title>
+<ellipse fill="none" stroke="black" cx="310.98" cy="-448.02" rx="61.57" ry="21.6"/>
+<text xml:space="preserve" text-anchor="middle" x="310.98" y="-443.82" font-family="Helvetica,sans-Serif" font-size="14.00">Census_Year</text>
+</g>
+<!-- Obs&#45;&#45;Year -->
+<g id="edge8" class="edge">
+<title>Obs--Year</title>
+<path fill="none" stroke="black" d="M423.04,-475.48C403.15,-470.61 381.13,-465.21 361.91,-460.5"/>
+</g>
+<!-- FIRMALL -->
+<g id="node10" class="node">
+<title>FIRMALL</title>
+<ellipse fill="none" stroke="black" cx="640.48" cy="-331.31" rx="54.43" ry="21.6"/>
+<text xml:space="preserve" text-anchor="middle" x="640.48" y="-327.11" font-family="Helvetica,sans-Serif" font-size="14.00">Firm_Count</text>
+</g>
+<!-- Obs&#45;&#45;FIRMALL -->
+<g id="edge9" class="edge">
+<title>Obs--FIRMALL</title>
+<path fill="none" stroke="black" d="M503.89,-467.85C534.71,-437.04 590.23,-381.54 620.11,-351.67"/>
+</g>
+<!-- RCPALL -->
+<g id="node11" class="node">
+<title>RCPALL</title>
+<ellipse fill="none" stroke="black" cx="525.28" cy="-334.47" rx="43.99" ry="21.6"/>
+<text xml:space="preserve" text-anchor="middle" x="525.28" y="-330.27" font-family="Helvetica,sans-Serif" font-size="14.00">Revenue</text>
+</g>
+<!-- Obs&#45;&#45;RCPALL -->
+<g id="edge10" class="edge">
+<title>Obs--RCPALL</title>
+<path fill="none" stroke="black" d="M487.97,-467.96C496.25,-438.34 510.91,-385.86 519.18,-356.3"/>
+</g>
+<!-- EMP -->
+<g id="node12" class="node">
+<title>EMP</title>
+<ellipse fill="none" stroke="black" cx="454.38" cy="-658.2" rx="72.97" ry="21.6"/>
+<text xml:space="preserve" text-anchor="middle" x="454.38" y="-654" font-family="Helvetica,sans-Serif" font-size="14.00">Employee Count</text>
+</g>
+<!-- Obs&#45;&#45;EMP -->
+<g id="edge11" class="edge">
+<title>Obs--EMP</title>
+<path fill="none" stroke="black" d="M478.25,-511.9C472.98,-544.16 463.23,-603.93 457.97,-636.19"/>
+</g>
+<!-- Demo -->
+<g id="node2" class="node">
+<title>Demo</title>
+<polygon fill="#d4e6f1" stroke="#d4e6f1" points="870.15,-731.16 748.37,-731.16 748.37,-687.96 870.15,-687.96 870.15,-731.16"/>
+<text xml:space="preserve" text-anchor="middle" x="809.26" y="-713.76" font-family="Helvetica,sans-Serif" font-size="14.00">DEMOGRAPHIC</text>
+<text xml:space="preserve" text-anchor="middle" x="809.26" y="-696.96" font-family="Helvetica,sans-Serif" font-size="14.00">PROFILE</text>
+</g>
+<!-- R1 -->
+<g id="node5" class="node">
+<title>R1</title>
+<polygon fill="#e8daef" stroke="#e8daef" points="643.27,-634.22 564.94,-612.62 643.27,-591.02 721.6,-612.62 643.27,-634.22"/>
+<text xml:space="preserve" text-anchor="middle" x="643.27" y="-608.42" font-family="Helvetica,sans-Serif" font-size="14.00">Categorizes</text>
+</g>
+<!-- Demo&#45;&#45;R1 -->
+<g id="edge1" class="edge">
+<title>Demo--R1</title>
+<path fill="none" stroke="black" d="M771.59,-687.56C740.22,-669.24 696.38,-643.64 668.93,-627.6"/>
+<text xml:space="preserve" text-anchor="middle" x="717.48" y="-660.58" font-family="Helvetica,sans-Serif" font-size="10.00">1</text>
+</g>
+<!-- Demo_ID -->
+<g id="node13" class="node">
+<title>Demo_ID</title>
+<ellipse fill="none" stroke="black" cx="927.58" cy="-713.14" rx="47.31" ry="21.6"/>
+<text xml:space="preserve" text-anchor="start" x="896.85" y="-709.94" font-family="Helvetica,sans-Serif" text-decoration="underline" font-size="14.00">Profile_ID</text>
+</g>
+<!-- Demo&#45;&#45;Demo_ID -->
+<g id="edge12" class="edge">
+<title>Demo--Demo_ID</title>
+<path fill="none" stroke="black" d="M870.5,-711.41C873.66,-711.51 876.81,-711.6 879.91,-711.7"/>
+</g>
+<!-- Gender -->
+<g id="node14" class="node">
+<title>Gender</title>
+<ellipse fill="none" stroke="black" cx="863.92" cy="-813.36" rx="38.29" ry="21.6"/>
+<text xml:space="preserve" text-anchor="middle" x="863.92" y="-809.16" font-family="Helvetica,sans-Serif" font-size="14.00">Gender</text>
+</g>
+<!-- Demo&#45;&#45;Gender -->
+<g id="edge13" class="edge">
+<title>Demo--Gender</title>
+<path fill="none" stroke="black" d="M820.85,-731.57C830.32,-749.55 843.6,-774.77 852.9,-792.44"/>
+</g>
+<!-- Race -->
+<g id="node15" class="node">
+<title>Race</title>
+<ellipse fill="none" stroke="black" cx="759.23" cy="-814.52" rx="29.73" ry="21.6"/>
+<text xml:space="preserve" text-anchor="middle" x="759.23" y="-810.32" font-family="Helvetica,sans-Serif" font-size="14.00">Race</text>
+</g>
+<!-- Demo&#45;&#45;Race -->
+<g id="edge14" class="edge">
+<title>Demo--Race</title>
+<path fill="none" stroke="black" d="M798.77,-731.56C790,-749.95 777.59,-775.99 769.02,-793.97"/>
+</g>
+<!-- Eth -->
+<g id="node16" class="node">
+<title>Eth</title>
+<ellipse fill="none" stroke="black" cx="884.5" cy="-620.59" rx="42.08" ry="21.6"/>
+<text xml:space="preserve" text-anchor="middle" x="884.5" y="-616.39" font-family="Helvetica,sans-Serif" font-size="14.00">Ethnicity</text>
+</g>
+<!-- Demo&#45;&#45;Eth -->
+<g id="edge15" class="edge">
+<title>Demo--Eth</title>
+<path fill="none" stroke="black" d="M827.86,-687.57C839.96,-673.26 855.62,-654.74 867.4,-640.81"/>
+</g>
+<!-- Ind -->
+<g id="node3" class="node">
+<title>Ind</title>
+<polygon fill="#d4e6f1" stroke="#d4e6f1" points="403.69,-143.25 316.13,-143.25 316.13,-100.05 403.69,-100.05 403.69,-143.25"/>
+<text xml:space="preserve" text-anchor="middle" x="359.91" y="-125.85" font-family="Helvetica,sans-Serif" font-size="14.00">INDUSTRY</text>
+<text xml:space="preserve" text-anchor="middle" x="359.91" y="-109.05" font-family="Helvetica,sans-Serif" font-size="14.00">(NAICS)</text>
+</g>
+<!-- R2 -->
+<g id="node6" class="node">
+<title>R2</title>
+<polygon fill="#e8daef" stroke="#e8daef" points="397.91,-324.64 332.36,-303.04 397.91,-281.44 463.46,-303.04 397.91,-324.64"/>
+<text xml:space="preserve" text-anchor="middle" x="397.91" y="-298.84" font-family="Helvetica,sans-Serif" font-size="14.00">Classifies</text>
+</g>
+<!-- Ind&#45;&#45;R2 -->
+<g id="edge3" class="edge">
+<title>Ind--R2</title>
+<path fill="none" stroke="black" d="M364.49,-143.53C371.9,-178.87 386.38,-248.01 393.6,-282.48"/>
+<text xml:space="preserve" text-anchor="middle" x="376.27" y="-216.01" font-family="Helvetica,sans-Serif" font-size="10.00">1</text>
+</g>
+<!-- Naics_ID -->
+<g id="node17" class="node">
+<title>Naics_ID</title>
+<ellipse fill="none" stroke="black" cx="417.23" cy="-21.6" rx="59.67" ry="21.6"/>
+<text xml:space="preserve" text-anchor="start" x="376.38" y="-18.4" font-family="Helvetica,sans-Serif" text-decoration="underline" font-size="14.00">NAICS_2012</text>
+</g>
+<!-- Ind&#45;&#45;Naics_ID -->
+<g id="edge16" class="edge">
+<title>Ind--Naics_ID</title>
+<path fill="none" stroke="black" d="M372.35,-99.94C382.03,-83.05 395.39,-59.72 405.02,-42.92"/>
+</g>
+<!-- Ind_Desc -->
+<g id="node18" class="node">
+<title>Ind_Desc</title>
+<ellipse fill="none" stroke="black" cx="258.17" cy="-71.03" rx="52.53" ry="21.6"/>
+<text xml:space="preserve" text-anchor="middle" x="258.17" y="-66.83" font-family="Helvetica,sans-Serif" font-size="14.00">Description</text>
+</g>
+<!-- Ind&#45;&#45;Ind_Desc -->
+<g id="edge17" class="edge">
+<title>Ind--Ind_Desc</title>
+<path fill="none" stroke="black" d="M315.88,-99.74C307.93,-95.79 299.75,-91.72 292.15,-87.94"/>
+</g>
+<!-- Loc -->
+<g id="node4" class="node">
+<title>Loc</title>
+<polygon fill="#d4e6f1" stroke="#d4e6f1" points="209.74,-732.61 122.17,-732.61 122.17,-689.41 209.74,-689.41 209.74,-732.61"/>
+<text xml:space="preserve" text-anchor="middle" x="165.96" y="-715.21" font-family="Helvetica,sans-Serif" font-size="14.00">STATE</text>
+<text xml:space="preserve" text-anchor="middle" x="165.96" y="-698.41" font-family="Helvetica,sans-Serif" font-size="14.00">LOCATION</text>
+</g>
+<!-- R3 -->
+<g id="node7" class="node">
+<title>R3</title>
+<polygon fill="#e8daef" stroke="#e8daef" points="316.13,-625.18 280.81,-603.58 316.13,-581.98 351.45,-603.58 316.13,-625.18"/>
+<text xml:space="preserve" text-anchor="middle" x="316.13" y="-599.38" font-family="Helvetica,sans-Serif" font-size="14.00">Has</text>
+</g>
+<!-- Loc&#45;&#45;R3 -->
+<g id="edge5" class="edge">
+<title>Loc--R3</title>
+<path fill="none" stroke="black" d="M196.71,-689.01C227.94,-666.67 275.13,-632.91 299.79,-615.27"/>
+<text xml:space="preserve" text-anchor="middle" x="245.47" y="-655.14" font-family="Helvetica,sans-Serif" font-size="10.00">1</text>
+</g>
+<!-- State_ID -->
+<g id="node19" class="node">
+<title>State_ID</title>
+<ellipse fill="none" stroke="black" cx="53.49" cy="-692.21" rx="53.49" ry="21.6"/>
+<text xml:space="preserve" text-anchor="start" x="17.69" y="-689.01" font-family="Helvetica,sans-Serif" text-decoration="underline" font-size="14.00">State_FIPS</text>
+</g>
+<!-- Loc&#45;&#45;State_ID -->
+<g id="edge18" class="edge">
+<title>Loc--State_ID</title>
+<path fill="none" stroke="black" d="M121.83,-703.63C115.8,-702.62 109.57,-701.58 103.45,-700.56"/>
+</g>
+<!-- State_Name -->
+<g id="node20" class="node">
+<title>State_Name</title>
+<ellipse fill="none" stroke="black" cx="147.9" cy="-824.15" rx="57.29" ry="21.6"/>
+<text xml:space="preserve" text-anchor="middle" x="147.9" y="-819.95" font-family="Helvetica,sans-Serif" font-size="14.00">State_Name</text>
+</g>
+<!-- Loc&#45;&#45;State_Name -->
+<g id="edge19" class="edge">
+<title>Loc--State_Name</title>
+<path fill="none" stroke="black" d="M162.43,-733.09C159.25,-753.03 154.6,-782.2 151.42,-802.12"/>
+</g>
+<!-- R1&#45;&#45;Obs -->
+<g id="edge2" class="edge">
+<title>R1--Obs</title>
+<path fill="none" stroke="black" d="M622.17,-596.58C593.71,-574.94 542.91,-536.32 510.86,-511.96"/>
+<text xml:space="preserve" text-anchor="middle" x="562.91" y="-557.27" font-family="Helvetica,sans-Serif" font-size="10.00">N</text>
+</g>
+<!-- R2&#45;&#45;Obs -->
+<g id="edge4" class="edge">
+<title>R2--Obs</title>
+<path fill="none" stroke="black" d="M406.42,-321.99C422.09,-356.87 455.42,-431.07 472.02,-468.03"/>
+<text xml:space="preserve" text-anchor="middle" x="435.61" y="-398.01" font-family="Helvetica,sans-Serif" font-size="10.00">N</text>
+</g>
+<!-- R3&#45;&#45;Obs -->
+<g id="edge6" class="edge">
+<title>R3--Obs</title>
+<path fill="none" stroke="black" d="M332.93,-592.06C360.25,-573.31 414.75,-535.92 449.69,-511.95"/>
+<text xml:space="preserve" text-anchor="middle" x="387.7" y="-555" font-family="Helvetica,sans-Serif" font-size="10.00">N</text>
+</g>
+</g>
+</svg>
